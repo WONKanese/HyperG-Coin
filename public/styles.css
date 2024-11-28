@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Loading */
+.loading {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loading-img {
+    width: 8vw;
+    height: auto;
+}
+.loading-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.login-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    width: 35vw;
+    height: 50vh;
+}
+
+/* Login */
+.login-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 236, 236, 0.945);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-group {
+    padding: 20px;
+    font-family: "Host Grotesk", sans-serif;
+}
+
+.login-submit {
+    color: white;
+    cursor: pointer;
+    background-color: #14bcff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 17%;
+}
+.sign-up {
+    margin: 20px;
+    background-color: rgb(101, 194, 8);
+}
+
+.login-error {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: red;
+}
+
+/* Email Verification */
+.verify-email {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 236, 236, 0.945);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Main Page */
+.main-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 236, 236, 0.945);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.max-mined {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.you-clicks {
+    font-weight: 500;
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 25px;
+    margin-bottom: -5px;
+}
+
+.today-clicks {
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 20px;
+}
+
+#clickCount {
+    font-weight: bold;
+    font-weight: 500;
+    color: #2ecc71;
+}
+
+#yourclickCount {
+    font-weight: bold;
+    font-weight: 600;
+    color: #dbbf1e;
+}
+
+#yourDailyCount {
+    font-weight: bold;
+    font-weight: 600;
+    color: aqua;
+}
+
+.clicks {
+    text-align: center;
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 50px;
+    color: #2c3e50;
+}
+
+.gcoin-button {
+    display: block;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.gcoin-img {
+    margin-top: -12px;
+    width: 150px;
+    height: auto;
+    transition: filter 0.2s ease;
+}
+.leaderboard-sep {
+    width: 10vw;
+    margin-top: 20px;
+    height: 2px;
+    background-color: black;
+    border: 0;
+}
+.gcoin-img:hover {
+    filter: brightness(92%);
+}
+.gcoin-img:active {
+    filter: brightness(112%);
+}
+ 
+/* Leaderboard */
+.lb {
+    list-style-type: none;
+    padding: 0;
+}
+.leaderboard {
+    font-family: "Host Grotesk", sans-serif;
+    margin-top: 0px;
+    text-align: center;
+}

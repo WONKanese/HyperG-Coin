@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyper G Coin</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loading" class="loading">
+        <img src="https://i.gifer.com/ZKZg.gif" class="loading-img">
+        <p class="loading-text">Loading...</p>
+    </div>
+    <div id="login-page" class="login-page" style="display: none;">
+        <div class="login-block">
+            <h1 class="login-main">Account</h1>
+            <form class="login-form">
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input style="margin-left: 30px;" maxlength="100" type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input maxlength="20" type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label class="username" for="username">Username:</label>
+                    <input maxlength="20" type="text" id="username" name="username" required>
+                    <br><i>(Sign up only)</i>
+                </div>
+                <p class="login-error" id="login-error"></p>
+                <button class="login-submit" id="login-submit" type="submit">Login</button>
+                <button class="login-submit sign-up" id="sign-up" type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <div id="verify-email" class="verify-email" style="display:none;">
+        <h1>Email not verified</h1>
+        <h2>Check your email to confirm it</h2>
+        <button class="check-email" id="check-email">Click when verified</button> 
+    </div>
+    <div id="main-page" class="main-page" style="display: none;">
+        <h1 class="clicks">Hyper G Coins: <span id="clickCount">Loading...</span><span class="max-mined">/ 500,000</span></h1>
+        <button id="clickButton" class="gcoin-button"><img class="gcoin-img" src="gcoin.png"></button>
+        <p class="you-clicks">Your G Coins: <span id="yourclickCount">Loading...</span></p>
+        <p class="today-clicks">Today: (<span id="yourDailyCount">Loading...</span>/ 100)</p>
+        <div class="leaderboard-sep"></div>
+        <div class="leaderboard">
+            <h2 class="leaderboard-title">Leaderboard</h2>
+            <ol class="lb" id="lb"></ol>
+        </div>
+    </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
